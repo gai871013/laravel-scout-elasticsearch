@@ -90,9 +90,9 @@ class ElasticsearchEngine extends Engine
     public function search(Builder $builder)
     {
         return $this->performSearch($builder, array_filter([
-                                                               'numericFilters' => $this->filters($builder),
-                                                               'size'           => $builder->limit,
-                                                           ]));
+                'numericFilters' => $this->filters($builder),
+                'size'           => $builder->limit,
+            ]));
     }
 
     /**
@@ -212,7 +212,7 @@ class ElasticsearchEngine extends Engine
      * @param \Illuminate\Database\Eloquent\Model $model
      * @return Collection
      */
-    public function map($results, $model)
+    public function map(Builder $builder, $results, $model)
     {
         if ($results['hits']['total'] === 0) {
             return Collection::make();
@@ -255,5 +255,10 @@ class ElasticsearchEngine extends Engine
         return collect($builder->orders)->map(function ($order) {
             return [$order['column'] => $order['direction']];
         })->toArray();
+    }
+
+    public function flush($model)
+    {
+
     }
 }
