@@ -11,5 +11,4 @@
 - [腾讯云开发者实验室](https://cloud.tencent.com/developer/labs/lab/10433)
 
 ### 链接
-- github：[https://github.com/gai871013/laravel-scout-elasticsearch](https://github.com/baijunyao/laravel-scout-elasticsearch)   
-- 码云：[https://gitee.com/gai871013/laravel-scout-elasticsearch](https://gitee.com/baijunyao/laravel-scout-elasticsearch)
+- github：[https://github.com/gai871013/laravel-scout-elasticsearch](https://github.com/gai871013/laravel-scout-elasticsearch)  
