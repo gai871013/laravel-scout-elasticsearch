@@ -1,6 +1,6 @@
 <?php
 
-namespace Baijunyao\LaravelScoutElasticsearch;
+namespace Gai871013\LaravelScoutElasticsearch;
 
 use Elasticsearch\ClientBuilder;
 

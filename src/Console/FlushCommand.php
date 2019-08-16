@@ -1,6 +1,6 @@
 <?php
 
-namespace Baijunyao\LaravelScoutElasticsearch\Console;
+namespace Gai871013\LaravelScoutElasticsearch\Console;
 
 use Illuminate\Console\Command;
 use Baijunyao\LaravelScoutElasticsearch\ElasticsearchClientTrait;
