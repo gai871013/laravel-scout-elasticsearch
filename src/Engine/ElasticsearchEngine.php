@@ -257,8 +257,14 @@ class ElasticsearchEngine extends Engine
         })->toArray();
     }
 
+    /**
+     * 清理search缓存
+     * @param $model
+     */
     public function flush($model)
     {
-
+        $model->newQuery()
+              ->orderBy($model->getKeyName())
+              ->unsearchable();
     }
 }
