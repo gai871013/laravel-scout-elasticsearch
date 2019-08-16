@@ -5,7 +5,7 @@ namespace Gai871013\LaravelScoutElasticsearch\Engine;
 use Laravel\Scout\Builder;
 use Laravel\Scout\Engines\Engine;
 use Illuminate\Database\Eloquent\Collection;
-use Baijunyao\LaravelScoutElasticsearch\ElasticsearchClientTrait;
+use Gai871013\LaravelScoutElasticsearch\ElasticsearchClientTrait;
 
 class ElasticsearchEngine extends Engine
 {

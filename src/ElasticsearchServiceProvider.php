@@ -4,9 +4,9 @@ namespace Gai871013\LaravelScoutElasticsearch;
 
 use Laravel\Scout\EngineManager;
 use Illuminate\Support\ServiceProvider;
-use Baijunyao\LaravelScoutElasticsearch\Engine\ElasticsearchEngine;
-use Baijunyao\LaravelScoutElasticsearch\Console\ImportCommand;
-use Baijunyao\LaravelScoutElasticsearch\Console\FlushCommand;
+use Gai871013\LaravelScoutElasticsearch\Engine\ElasticsearchEngine;
+use Gai871013\LaravelScoutElasticsearch\Console\ImportCommand;
+use Gai871013\LaravelScoutElasticsearch\Console\FlushCommand;
 
 class ElasticsearchServiceProvider extends ServiceProvider
 {

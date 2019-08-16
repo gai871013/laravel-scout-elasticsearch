@@ -3,7 +3,7 @@
 namespace Gai871013\LaravelScoutElasticsearch\Console;
 
 use Illuminate\Console\Command;
-use Baijunyao\LaravelScoutElasticsearch\ElasticsearchClientTrait;
+use Gai871013\LaravelScoutElasticsearch\ElasticsearchClientTrait;
 
 class ImportCommand extends Command
 {
